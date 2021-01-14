@@ -1,7 +1,7 @@
 import random
 number = random.randint(1, 9)
 chances = 0
-
+print("")
 print("Guess a number between 1 to 9, You have 5 chances!!, Try your luck!")
 while chances < 5:
     guess = int(input("Enter your guess number: "))
